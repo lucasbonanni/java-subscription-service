@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
 
+// http://localhost:8080/subscription-service/api/v1/endpoints/subscriptions
 @RestController()
 @RequestMapping("/subscriptions")
 public class SubscriptionController {
